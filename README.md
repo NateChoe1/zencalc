@@ -5,12 +5,12 @@ calculator is controlled by the time that the command is run. Only the second
 part of the time is read, everything else is ignored. Zen calculator uses a
 stack based postfix notation to get inputs.
 
-XX:XX:00:            +
-XX:XX:01:            -
-XX:XX:02:            *
-XX:XX:03:            /
-XX:XX:04:            Push current number
-XX:XX:06 - XX:XX:09: Delete entire stack
+    XX:XX:00:            +
+    XX:XX:01:            -
+    XX:XX:02:            *
+    XX:XX:03:            /
+    XX:XX:04:            Push current number
+    XX:XX:06 - XX:XX:09: Delete entire stack
 
 For any other value, the final digit of the second hand is appended to the
 current number. The calculator uses a stack based postfix notation.
