@@ -57,7 +57,7 @@ char *code =
 "slen -= 2;"
 "break;"
 "case '1':"
-"newval = stack[slen - 1] - stack[slen - 2];"
+"newval = stack[slen - 2] - stack[slen - 1];"
 "addval = 1;"
 "slen -= 2;"
 "break;"
@@ -131,7 +131,7 @@ int main() {
 			slen -= 2;
 			break;
 		case '1':
-			newval = stack[slen - 1] - stack[slen - 2];
+			newval = stack[slen - 2] - stack[slen - 1];
 			addval = 1;
 			slen -= 2;
 			break;
